@@ -32,9 +32,9 @@ img {
 }
 
 .card-header {
-	height: 30vh;
+	height: 25vh;
 	background: url(../images/bg-pattern-card.svg);
-	border-radius: 15px 15px 0 0;
+	border-radius: 18px 18px 0 0;
 }
 
 .body-img {
@@ -46,10 +46,19 @@ img {
 	font-weight: 400;
 }
 
+.body-title {
+	margin-bottom: 0.4em;
+}
+
+.location {
+	margin-top: 0;
+	margin-bottom: 1.3em;
+}
+
 .card-body {
 	background: var(--white);
-	padding: 2em;
-	border-radius: 0 0 15px 15px;
+	padding: 2em 2em 1em;
+	border-radius: 0 0 18px 18px;
 	text-align: center;
 	position: relative;
 }
@@ -64,6 +73,7 @@ img {
 }
 
 .details {
+	margin-top: 2em;
 	display: flex;
 	justify-content: space-between;
 }
@@ -80,7 +90,9 @@ img {
 }
 
 .flex-info {
-	margin-top: 0.4em;
+	margin-top: 0.3em;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
 }
 
 .color {
