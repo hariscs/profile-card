@@ -17,7 +17,10 @@ body {
 	font-size: 18px;
 	font-family: 'Kumbh Sans', sans-serif;
 	color: var(--Very-dark-desaturated-blue);
-	background: var(--Dark-cyan) url(../images/bg-pattern-top.svg);
+
+	background: url(../images/bg-pattern-top.svg) top left no-repeat,
+		url(../images/bg-pattern-bottom.svg) bottom right no-repeat,
+		var(--Dark-cyan);
 }
 
 img {
@@ -28,7 +31,7 @@ img {
 
 .container {
 	max-width: 375px;
-	margin: 4em auto;
+	margin: 6em auto;
 }
 
 .card-header {
