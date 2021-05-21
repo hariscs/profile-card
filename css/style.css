@@ -17,10 +17,8 @@ body {
 	font-size: 18px;
 	font-family: 'Kumbh Sans', sans-serif;
 	color: var(--Very-dark-desaturated-blue);
-
-	background: url(../images/bg-pattern-top.svg) top left no-repeat,
-		url(../images/bg-pattern-bottom.svg) bottom right no-repeat,
-		var(--Dark-cyan);
+	background: -40vw -30vh/100% no-repeat url(../images/bg-pattern-top.svg),
+		50vw 50vh no-repeat url(../images/bg-pattern-bottom.svg), var(--Dark-cyan);
 }
 
 img {
